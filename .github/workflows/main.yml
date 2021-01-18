@@ -3,8 +3,6 @@ name: Build LaTeX document
 on:
   push:
     branches: [ main ]
-    paths:
-    - src/**
 
 jobs:
   build_latex:
@@ -18,5 +16,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tex_path: './src/resume.tex'
+          tex_path: './resume.tex'
           push: 'yes'
