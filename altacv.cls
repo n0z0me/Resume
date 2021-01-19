@@ -27,8 +27,6 @@
 \LoadClass{extarticle}
 
 \RequirePackage[margin=2cm]{geometry}
-\RequirePackage{fontspec}
-\RequirePackage{fontawesome}
 
 %% v1.1: Optionally load academicons
 \if@academicons
@@ -68,16 +66,6 @@
 \newenvironment{fullwidth}{%
   \begin{adjustwidth}{}{\dimexpr-\marginparwidth-\marginparsep\relax}}
   {\end{adjustwidth}}
-
-\newcommand{\emailsymbol}{\faAt}
-\newcommand{\phonesymbol}{\faPhone}
-\newcommand{\homepagesymbol}{\faChain}
-\newcommand{\locationsymbol}{\faMapMarker}
-\newcommand{\linkedinsymbol}{\faLinkedin}
-\newcommand{\twittersymbol}{\faTwitter}
-\newcommand{\githubsymbol}{\faGithub}
-\newcommand{\orcidsymbol}{\aiOrcid}
-\newcommand{\mailsymbol}{\faEnvelope}
 
 \newcommand{\printinfo}[2]{\mbox{\textcolor{accent}{\normalfont #1}\hspace{0.5em}#2\hspace{2em}}}
 
