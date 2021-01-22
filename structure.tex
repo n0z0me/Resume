@@ -36,8 +36,8 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{fontspec} % Required for specifying custom fonts under XeLaTeX
-
-\setmainfont{EBGaramond}[ % Make the default font EBGaramond
+\usepackage{polyglossia}
+\setmainfont{Helvetica}[ % Make the default font EBGaramond
 Path=fonts/, % The font is provided with the template in the fonts folder
 UprightFont=*-Regular.ttf,
 BoldFont=*-Bold.ttf,
@@ -59,15 +59,13 @@ SmallCapsFont=*-SC.ttf
 
 \usepackage[usenames,svgnames]{xcolor} % Allows the definition and use of custom colours
 
-\definecolor{text}{HTML}{2b2b2b} % Main document font colour, off-black
-\definecolor{headings}{HTML}{701112} % Dark red colour for headings
-\definecolor{shade}{HTML}{F5DD9D} % Peach colour for the contact information box
+\definecolor{text}{HTML}{2b2b2b} % Main document font color, off-black
+\definecolor{headings}{HTML}{3498DB} % Light Blue color for headings
+\definecolor{shade}{HTML}{FFFFFF} % Peach colour for the contact information box
 \definecolor{linkcolor}{HTML}{641c1d} % 25% desaturated headings colour for links
-% Other colour options: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+% Other color options: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
 
-% For preset colours that can be used by their names without having to define them, see: https://www.latextemplates.com/svgnames-colors
-
-\color{text} % Set the default text colour for the whole document to the colour defined as 'text' above
+\color{text} % Set the default text color for the whole document to the color defined as 'text' above
 
 %------------------------------------------------
 
